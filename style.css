@@ -1,0 +1,53 @@
+
+
+html ,body{
+    height: 100vh;
+    margin: 0;
+}
+
+.window-1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* transform: perspective(500px) translateZ(200px); */
+
+}
+
+.img1{
+    position: relative;
+    bottom: 60px;
+    left: 245px;
+    width: 200px;
+    height: 200px;
+}
+input{
+    position: relative;
+    top: -60px;
+    width: 600px;
+    height: 60px;
+}
+h1{
+    position: relative;
+    margin: 0;
+    top: 165px;
+    right: 172px;
+    color: white;
+    font-size: 4rem;
+}
+.window-1 button {
+    background-color: white;
+    border: 0;
+    width: 200px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+}
+input::placeholder {
+    font-size: 1.5rem; 
+  }
+ 
